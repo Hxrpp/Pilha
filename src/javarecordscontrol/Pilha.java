@@ -2,7 +2,7 @@
 package javarecordscontrol;
 
 public class Pilha<T> {
-    private T[] elementos;
+    private final T[] elementos;
     private int topo;
     
     public Pilha(int tamanho){
@@ -54,6 +54,14 @@ public class Pilha<T> {
             retorno.append(this.elementos[i]+"\n");
         
         return retorno.toString();
+    }
+
+    int size() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    Object get(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
