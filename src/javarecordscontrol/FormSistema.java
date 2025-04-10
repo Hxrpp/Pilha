@@ -80,8 +80,8 @@ public class FormSistema extends javax.swing.JFrame {
         lblTopo.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
         lblTopo.setText("Topo:");
 
-        btnRemove.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btnRemove.setText("Desempilhar");
+        btnRemove.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
+        btnRemove.setText("Remover");
         btnRemove.setActionCommand("Remover");
         btnRemove.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnRemove.addActionListener(new java.awt.event.ActionListener() {
@@ -90,7 +90,7 @@ public class FormSistema extends javax.swing.JFrame {
             }
         });
 
-        btnAdd.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnAdd.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         btnAdd.setText("Adicionar");
         btnAdd.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
