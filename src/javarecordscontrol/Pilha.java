@@ -51,7 +51,7 @@ public class Pilha<T> {
         StringBuilder retorno =
                 new StringBuilder("Topo\n");
         for(int i = this.topo ; i>=0; i--)
-            retorno.append(this.elementos[i]+"\n");
+            retorno.append(this.elementos[i]).append("\n");
         
         return retorno.toString();
     }
